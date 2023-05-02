@@ -1,1 +1,23 @@
 /* Your code here */
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    /* border: 5px solid black; */
+}
+
+li {
+    box-sizing: border-box;
+    width: calc(100%/3);
+    height: calc(100%/3);
+    border: 2px solid black;
+    background: gray;
+    list-style: none;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: pink;
+}
